@@ -2,13 +2,13 @@
 p.img_center{text-align: center;}
 
 /*目次*/
-ul.table of contents{
+ul.table{
   width: 600px;
   border:1px solid red;
   padding:0;
   font-size:0px;
 }
-ul.table of contents li {
+ul.tableli {
   width:118px;
   border:1px solid black;
   display: inline-block;
@@ -16,10 +16,10 @@ ul.table of contents li {
   font-size:16px;
 }
 
-ul.table of contents li:first-child {
+ul.table　li:first-child {
   height:60px;
 }
 
-ul.table of contents li a {
+ul.table li a {
   display: block;
 }
