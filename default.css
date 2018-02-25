@@ -13,6 +13,9 @@ ul.table li{
    display: table-cell;
   vertical-align: middle;
 }
+ul.table li:last-child {
+  border-right: 0;
+}
 ul.table li a{
   color: #fff;
   display: block;
