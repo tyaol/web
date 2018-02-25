@@ -8,7 +8,7 @@ ul.table{
   padding:0;
   font-size:0px;
 }
-ul.tableli {
+ul.table li{
   width:118px;
   border:1px solid black;
   display: inline-block;
@@ -16,10 +16,10 @@ ul.tableli {
   font-size:16px;
 }
 
-ul.table　li:first-child {
+ul.table li:first-child {
   height:60px;
 }
 
-ul.table li a {
+ul.table li a{
   display: block;
 }
