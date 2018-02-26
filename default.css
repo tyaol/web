@@ -1,3 +1,7 @@
+body{
+  background-image: url("img/game_back.png");
+  background-repeat: repeat;
+}
 /*画像位置センター*/
 p.img_center{text-align: center;}
 p.img_left{text-align: left;}
