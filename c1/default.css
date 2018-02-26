@@ -1,0 +1,26 @@
+/*画像位置センター*/
+p.img_center{text-align: center;}
+
+/*目次*/
+ul.table{
+  background-color: #3ae;
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+}
+ul.table li{
+  border-right: 1px solid #fff;
+   display: table-cell;
+  vertical-align: middle;
+}
+ul.table li:last-child {
+  border-right: 0;
+}
+ul.table li a{
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 10px 0;
+}
