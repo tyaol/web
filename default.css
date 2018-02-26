@@ -10,6 +10,7 @@ ul.table{
   width: 100%;
 }
 ul.table li{
+  border-right: 1px solid #fff;
    display: table-cell;
   vertical-align: middle;
 }
