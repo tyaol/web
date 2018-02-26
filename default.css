@@ -41,7 +41,7 @@ function　clock() {
    var nowHour = set( nowTime.getHours() );
    var nowMin  = set2( nowTime.getMinutes() );
    var nowSec  = set2( nowTime.getSeconds() );
-   var msg = nowHour + ":" + nowMin + ":" + nowSec;
+   var msg = nowHour + ":" + nowMin + ":" + nowSec+;
    document.getElementById("RealtimeClockArea").innerHTML = msg;
 }
 setInterval('clock()',1000);
