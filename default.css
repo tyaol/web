@@ -1,5 +1,7 @@
 /*画像位置センター*/
 p.img_center{text-align: center;}
+p.img_left{text-align: left;}
+p.img_right{text-align: right;}
 
 /*目次*/
 ul.table{
